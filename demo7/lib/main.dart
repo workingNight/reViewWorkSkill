@@ -12,13 +12,13 @@ class MyApp extends StatelessWidget {
       title: 'Welcome to Flutter',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Hello World')
-        )
+          title: Text('flutter demo')
+        ),
         body: Center (
           child: Text('hello world!')
         )
-      ) //Scaffold 手脚架
-    ); //MaterialApp
+      ) 
+    ); 
   }
-}sd 
+}
 

@@ -6,6 +6,7 @@ import './App.css';
 import FromPage from './pages/formPage';
 import SecondPage from './pages/secondPage';
 import DynamicForm from './pages/dynamicForm';
+import DeadForm from './pages/deadForm';
 // import NoAuth from './pages/no-auth/no-auth';
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Switch>
         {/* <Route path='/noauth' component={NoAuth}></Route> */} 
         <Route exact path="/test" component={testPage} />
+        <Route exact path="/dead" component={DeadForm} />
         <Route path="/dynamicForm" component={DynamicForm} ></Route>
         <Route path='/form' component={FromPage} />
         <Route path='/second' component={SecondPage} />
